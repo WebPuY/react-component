@@ -1,0 +1,54 @@
+.tableWrap {
+  position: relative;
+  padding: 56px 22px 20px;
+  .filterText {
+    color: #4d94fb;
+    cursor: pointer;
+
+    .filterIcon {
+      width: 12px;
+      margin-left: 8px;
+      vertical-align: sub;
+      margin-bottom: 2px;
+    }
+  }
+  .tableFilter {
+    position: absolute;
+    display: inline-block;
+    top: 15px;
+    right: 30px;
+  }
+  .optionBtns {
+    position: absolute;
+    left: 30px;
+    top: 8px;
+  }
+  .optionRightBtnsHasFilter {
+    position: absolute;
+    right: 60px;
+    top: 8px;
+  }
+  .optionBtn {
+    margin-right: 16px;
+  }
+}
+
+.redRow {
+  color: #f00;
+}
+
+:global {
+  #tableFilter {
+    .ant-checkbox-wrapper + span, .ant-checkbox + span {
+      padding-right: 0;
+    }
+
+    .ant-row {
+      white-space: nowrap;
+    }
+
+    .ant-col-24 {
+      margin-top: 8px;
+    }
+  }
+}

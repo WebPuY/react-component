@@ -1,0 +1,36 @@
+.btnCol {
+  text-align: right;
+  margin-right: 24px;
+}
+
+.resetBtn {
+  margin-left: 16px;
+}
+
+.toggleBtn {
+  font-size: 12px;
+  display: block;
+  line-height: 32px;
+}
+
+.hiddenCol {
+  display: none;
+}
+
+.isSearchForm {
+  padding: 24px;
+}
+
+.formItem {
+  :global(.ant-calendar-picker) {
+    width: 100%;
+  }
+}
+
+.resetBtnWrapper {
+  float: right;
+}
+
+.position {
+  position: relative;
+}
